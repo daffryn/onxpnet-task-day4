@@ -1,4 +1,4 @@
-import model.calc as calculate
+import impl.calc as calculate
 
 kalkulasi = calculate.calc()
 
