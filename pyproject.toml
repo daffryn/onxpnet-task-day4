@@ -12,6 +12,9 @@ requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
 
+[tool.pdm.scripts]
+startvenv = "source .venv/bin/activate"
+startpy = "python src/main.py"
 
 [tool.pdm]
 distribution = true
